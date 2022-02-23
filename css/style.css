@@ -34,7 +34,7 @@ body{
 header{
     height:80px;
     line-height: 80px;
-    background-color: #3161E0;
+    background-color:#255EE8;
 }
 
 nav .logo, nav ul{
@@ -61,7 +61,7 @@ nav ul li{
 
 nav li a{
     text-decoration: none;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     margin: 10px;
     padding: 10px;
@@ -76,9 +76,48 @@ nav li a{
 
 #accedi .botton{
     padding: 10px 14px;
-    background-color: #fff;
+    background-color: white;
     font-size: 14px;
     color: #23272a;
     display: inline;
 }
 /* /header */
+
+/* corpo */
+
+/* jumbotron */
+#jumbotron{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    min-height: 546px;
+}
+#jumbotron .container{
+    text-align: center;
+    max-width: 780px;
+    padding-top:100px;
+    color: white;
+}
+
+h1{
+    font-size: 46px;
+}
+
+.container p{
+    margin-top: 40px;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+#jumbotron a{
+    margin-top: 24px;
+    background-color: white;
+    color: black;
+}
+
+#jumbotron .black-white{
+    background-color: none;
+    color: none;
+    background-color: black;
+    color: white;
+}
+/* /jumbotron */
