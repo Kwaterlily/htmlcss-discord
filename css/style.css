@@ -1,3 +1,4 @@
+/* general */
 * {
     margin: 0;
     padding: 0;
@@ -10,6 +11,7 @@ body{
     color: #23272a;
 }
 
+/* header */
 .container{
     width:90%;
     margin:0 auto;
@@ -28,9 +30,9 @@ body{
     background-color: #8ea1e1;
     color: #fff;
     text-decoration: none;
+    margin-top: 24px;
 }
 
-/* header */
 header{
     height:80px;
     line-height: 80px;
@@ -71,7 +73,6 @@ nav li a{
 #accedi{
     width: 15%;
     float:right;
-    
 }
 
 #accedi .botton{
@@ -99,11 +100,11 @@ nav li a{
 }
 
 h1{
-    font-size: 46px;
+    font-size: 4vw;
 }
 
 .container p{
-    margin-top: 40px;
+    
     font-size: 20px;
     line-height: 1.6;
 }
@@ -121,3 +122,167 @@ h1{
     color: white;
 }
 /* /jumbotron */
+
+/* corpo */
+
+.section-due{
+    width: 100%;
+    height: 100vh;
+}
+
+#section-left .image-top{
+    text-align: center;
+    max-width: 780px;
+    padding-top:100px;
+    vertical-align: baseline;
+    display: inline;
+}
+
+.image-top img{
+    padding-top:100px;
+    font-size: 100%;
+    vertical-align: baseline;
+    display: inline;
+    right: 0px;
+}
+
+#reverse, .image-top img{
+    padding-top:100px;
+    font-size: 100%;
+    vertical-align: baseline;
+    display: inline;
+    left: 0px;
+}
+
+.section-left img{
+    padding-top:100px;
+    font-size: 100%;
+    vertical-align: baseline;
+    display: inline;
+    right: 0px;
+}
+
+#section-right img{
+    padding-top:100px;
+    font-size: 100%;
+    vertical-align: baseline;
+    display: inline;
+    right: 0px;
+}
+
+ #section-left .image-top{
+    position: relative;
+    text-align: center;
+    max-width: 580px;
+    padding-top:100px;
+    display: inline;
+    margin-top: auto;
+    vertical-align: baseline;
+    padding-left: 50px;
+    left: 0px;
+    margin-right: 70px;
+ }
+    
+.text-right{
+    text-align: center;
+    max-width: 480px;
+    padding-top:135px;
+    float: right;
+    text-align:left;
+    vertical-align: baseline;
+    display: inline;
+    position: absolute;
+}
+
+.text-left{
+    text-align: center;
+    max-width: 480px;
+    padding-top:135px;
+    float: right;
+    text-align:right;
+    vertical-align: baseline;
+    display: inline;
+    position: absolute;
+}
+
+#section-right{
+    background-color: #F6F6F6;
+}   
+
+#onda-su .wave-1hkxOo{
+    margin-bottom: -5px;  
+}
+
+#onda-giù .wave-1hkxOo{
+    color: white;
+}
+
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h2{
+    font-size: 3vw;
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    line-height:1.6;
+    padding-top: 40px;
+}
+
+.wave-1hkxOo{
+    color: #F6F6F6;
+    margin-top: -100px;
+}
+
+#banner{
+    height: 100vh;
+    background-color: #F6F6F6;
+    top: 0;
+    right: 0;
+    position: relative;
+    padding-top:1300px;
+    margin-top: -5px;
+    overflow: hidden;
+}
+
+#banner h2 {
+    text-align: center;
+    font-size: 3vw;
+    margin-top: 50px;
+}
+
+h3{
+    text-align: center;
+    font-size: 2vw;
+}
+
+.image-under{
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transform-origin: center; 
+    text-align: center;
+}
+
+#banner img{
+    width: 100%;
+}
+/* /corpo */
+
+
+footer{
+    width: 100%;
+    height: 80vh;
+    background-color: #23272A;
+}
+
+
+
+
